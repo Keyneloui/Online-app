@@ -17,7 +17,7 @@ select * from Books;
 select * from Books Order By Price desc;
 
 #### Feature 2:List All Books based on price range from low to high
-select * from Books Order By Price asc;
+select Name,Year,Rating,Price from Books Order By Price asc;
 
 #### Feature 3:List All Books based on Management Category
 select * from Books where Category=Management;
@@ -26,4 +26,4 @@ select * from Books where Category=Management;
 select * from Books where Year=2017;
 
 #### Feature 5: List All Books where the price ranges from 400 to 700
-select * from Books where Price range between 400 and 700; 
+select * from Books where Price between 400 and 700; 
