@@ -2,13 +2,13 @@
 
 ## Tables
 #### Table 1: Books
-| S No | Name | Category | Price | Year|
-| -- | -- | -- | -- | -- |
-| 1 | Java | Technology | 500 | 2017 |
-| 2 | Anatomy | Medicine | 700 | 2016 |
-| 3 | Principles of Management | Management | 450 | 2013|
-| 4 | Sql | Technology | 300 | 2017 |
-| 6 | Neuroscience | Medicine | 500 | 2015 |
+| S No | Name | Category | Price | Year| Rating |
+| -- | -- | -- | -- | -- |--|
+| 1 | Java | Technology | 500 | 2017 | 4 |
+| 2 | Anatomy | Medicine | 700 | 2016 | 3 |
+| 3 | Principles of Management | Management | 450 | 2013| 3.5 |
+| 4 | Sql | Technology | 300 | 2017 | 5 |
+| 6 | Neuroscience | Medicine | 500 | 2015 | 4 |
 
 #### List All Books
 select * from Books;
