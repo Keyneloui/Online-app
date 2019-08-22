@@ -20,7 +20,7 @@ select * from Books Order By Price desc;
 select Name,Year,Rating,Price from Books Order By Price asc;
 
 #### Feature 3:List All Books based on Management Category
-select * from Books where Category=Management;
+select Name from Books where Category=Management;
 
 #### Feature 4:List All Books based on year 2017
 select * from Books where Year=2017;
